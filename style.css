@@ -130,3 +130,33 @@ body{
 .app-download:nth-child(2) {
     background-image: url(img/appstore.png);
 }
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .fotobook-wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: white;
+    }
+
+    .fotobook-wrapper{
+        width: 90%; 
+    }
+    .fotobook-phone{
+        display: none;
+    }
+
+    .fotobook-continue{
+        width: 100%;
+    }
+    .group {
+        border: 1px solid transparent;
+    }
+
+}
+
